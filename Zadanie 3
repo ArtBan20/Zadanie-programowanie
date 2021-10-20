@@ -3,17 +3,18 @@ using namespace std;
 
 int main()
 {
-	float a, b, c, d;
-	cout << "Program obliczajacy srednia arytmetyczna 4 liczb zmiennoprzecinkowych "<<endl;
-	cout << "Podaj pierwsza liczbe " << endl;
-	cin >> a>>endl;
-	cout << "Podaj druga liczbe " << endl;
-	cin >> b >> endl;
-	cout << "Podaj trzecia liczbe " << endl;
-	cin >> c >> endl;
-	cout << "Podaj czwarta liczbe " << endl;
-	cin >> d >> endl;
-	cout << "Srednia arytmetyczna tych liczb to: " << (a + b + c + d) / 4;
+	float a, b;
+	cout << "Sprawdzanie ktora liczba zmiennoprzecinkowa jest wieksza" << endl;
+	cout << "Podaj pierwsza liczbe zmiennoprzecinkowa: ";
+	cin >> a;
+	cout << "Podaj druga liczbe zmiennoprzecinkowa: ";
+	cin >> b;
+	if (a > b) {
+		cout << "Liczba " << a << " jest wieksza niz liczba " << b;
+	}
+	else {
+		cout << "Liczba " << b << " jest wieksza niz liczba " << a;
+	}
+
 
 }
-   
